@@ -1,0 +1,16 @@
+#ignore IntelliJ
+classes
+*.iml
+.idea/*
+!.idea/codeStyleSettings.xml
+
+#ignore gradle build output
+/.gradle
+/**/build
+**/out/
+**/src/main/generated/
+
+**/generated-sources
+!gradle/wrapper/gradle-wrapper.jar
+
+*.no-checkin
